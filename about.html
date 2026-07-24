@@ -1,0 +1,598 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>영등포 유흥 상세 정보 — 지역 시그널 안내</title>
+    <meta name="description" content="영등포 유흥의 실제 지역 시그널과 구조적 정보를 직설적으로 전달합니다. 당신의 선택에 필요한 단서만 정직하게 제공합니다.">
+    <meta name="keywords" content="영등포 유흥, 영등포 유흥 정보, 영등포 지역 시그널, 영등포 상세 가이드, 영등포 유흥 구조">
+    <meta name="bpaas-design-system" content="brutalist-avantgarde">
+    <meta name="bpaas-design-theme" content="kr-night-electric">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://yeongdeungpo-nightlife-note.roomlab-dangsan.xyz/info">
+    <meta property="og:title" content="영등포 유흥 상세 정보 — 지역 시그널 안내">
+    <meta property="og:description" content="영등포 유흥의 진짜 지형도. 지역 시그널을 읽는 법을 알려드립니다.">
+    <meta property="og:type" content="website">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;800&family=Noto+Sans+KR:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --bg-primary: #0a0a0f;
+            --bg-secondary: #12121a;
+            --bg-card: #1a1a24;
+            --bg-card-hover: #22222e;
+            --text-primary: #f0f0f5;
+            --text-secondary: #b0b0c0;
+            --text-muted: #707080;
+            --accent-primary: #00e5ff;
+            --accent-secondary: #ff3e6c;
+            --accent-tertiary: #a8ff00;
+            --border-color: #2a2a35;
+            --border-accent: #00e5ff33;
+            --font-display: 'Barlow Condensed', sans-serif;
+            --font-body: 'Noto Sans KR', sans-serif;
+            --space-unit: 0.5rem;
+            --radius-sm: 4px;
+            --radius-md: 8px;
+            --transition-fast: 0.15s ease;
+            --transition-normal: 0.3s ease;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: var(--font-body);
+            background-color: var(--bg-primary);
+            color: var(--text-primary);
+            line-height: 1.6;
+            overflow-x: hidden;
+            position: relative;
+            -webkit-font-smoothing: antialiased;
+            -moz-osx-font-smoothing: grayscale;
+        }
+
+        body::before {
+            content: '';
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: radial-gradient(circle at 70% 30%, rgba(0, 229, 255, 0.03) 0%, transparent 50%),
+                        radial-gradient(circle at 30% 70%, rgba(255, 62, 108, 0.03) 0%, transparent 50%);
+            pointer-events: none;
+            z-index: 0;
+        }
+
+        h1, h2, h3, h4, h5, h6 {
+            font-family: var(--font-display);
+            font-weight: 800;
+            line-height: 1.1;
+            letter-spacing: -0.02em;
+            text-transform: uppercase;
+        }
+
+        h1 {
+            font-size: clamp(2.5rem, 6vw, 4.5rem);
+            color: var(--text-primary);
+            margin-bottom: calc(var(--space-unit) * 4);
+            position: relative;
+            z-index: 1;
+        }
+
+        h2 {
+            font-size: clamp(1.8rem, 4vw, 3rem);
+            color: var(--accent-primary);
+            margin-bottom: calc(var(--space-unit) * 3);
+            border-bottom: 2px solid var(--accent-primary);
+            padding-bottom: var(--space-unit);
+            display: inline-block;
+            position: relative;
+            z-index: 1;
+        }
+
+        h3 {
+            font-size: clamp(1.3rem, 2.5vw, 1.8rem);
+            color: var(--text-primary);
+            margin-bottom: calc(var(--space-unit) * 2);
+            position: relative;
+            z-index: 1;
+        }
+
+        p {
+            font-size: 1rem;
+            color: var(--text-secondary);
+            margin-bottom: calc(var(--space-unit) * 2);
+            max-width: 70ch;
+            position: relative;
+            z-index: 1;
+        }
+
+        .x-ico-x4ky {
+            display: inline-flex;
+            align-items: center;
+            gap: 0.5rem;
+            font-weight: 700;
+            text-transform: uppercase;
+            font-family: var(--font-display);
+            letter-spacing: 0.05em;
+            color: var(--accent-primary);
+            font-size: 1.2rem;
+        }
+
+        /* Header & Nav */
+        .x-hd-x4ky {
+            position: sticky;
+            top: 0;
+            z-index: 100;
+            background: rgba(10, 10, 15, 0.95);
+            backdrop-filter: blur(10px);
+            border-bottom: 1px solid var(--border-color);
+            padding: calc(var(--space-unit) * 2) calc(var(--space-unit) * 4);
+        }
+
+        .x-nv-x4ky {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            max-width: 1400px;
+            margin: 0 auto;
+        }
+
+        .x-logo-x4ky {
+            font-family: var(--font-display);
+            font-size: 1.5rem;
+            font-weight: 800;
+            color: var(--text-primary);
+            text-decoration: none;
+            text-transform: uppercase;
+            letter-spacing: 0.1em;
+        }
+
+        .x-logo-x4ky span {
+            color: var(--accent-primary);
+        }
+
+        .x-mnu-x4ky {
+            display: flex;
+            gap: calc(var(--space-unit) * 3);
+            list-style: none;
+        }
+
+        .x-mnu-x4ky a {
+            color: var(--text-secondary);
+            text-decoration: none;
+            font-weight: 700;
+            font-size: 0.9rem;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+            transition: color var(--transition-fast);
+            position: relative;
+        }
+
+        .x-mnu-x4ky a:hover {
+            color: var(--accent-primary);
+        }
+
+        .x-mnu-x4ky a::after {
+            content: '';
+            position: absolute;
+            bottom: -4px;
+            left: 0;
+            width: 0;
+            height: 2px;
+            background: var(--accent-primary);
+            transition: width var(--transition-normal);
+        }
+
+        .x-mnu-x4ky a:hover::after {
+            width: 100%;
+        }
+
+        .x-hbg-x4ky {
+            display: none;
+            background: none;
+            border: none;
+            cursor: pointer;
+            padding: var(--space-unit);
+        }
+
+        .x-hbg-x4ky span {
+            display: block;
+            width: 24px;
+            height: 2px;
+            background: var(--text-primary);
+            margin: 5px 0;
+            transition: all var(--transition-normal);
+        }
+
+        /* Main Content */
+        .x-mn-x4ky {
+            position: relative;
+            z-index: 1;
+            padding: calc(var(--space-unit) * 8) calc(var(--space-unit) * 4);
+            max-width: 1400px;
+            margin: 0 auto;
+        }
+
+        .x-hr-x4ky {
+            height: 1px;
+            background: linear-gradient(90deg, transparent, var(--border-accent), var(--accent-primary), var(--border-accent), transparent);
+            margin: calc(var(--space-unit) * 6) 0;
+            border: none;
+        }
+
+        /* Section Grid */
+        .x-sg-x4ky {
+            display: grid;
+            gap: calc(var(--space-unit) * 4);
+            margin-bottom: calc(var(--space-unit) * 8);
+        }
+
+        .x-sg-x4ky.row-2 {
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+        }
+
+        .x-sg-x4ky.row-3 {
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+        }
+
+        /* Card Component */
+        .x-cd-x4ky {
+            background: var(--bg-card);
+            border: 1px solid var(--border-color);
+            border-radius: var(--radius-md);
+            padding: calc(var(--space-unit) * 3);
+            transition: all var(--transition-normal);
+            position: relative;
+            overflow: hidden;
+        }
+
+        .x-cd-x4ky::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 3px;
+            background: linear-gradient(90deg, var(--accent-primary), var(--accent-secondary));
+            transform: scaleX(0);
+            transform-origin: left;
+            transition: transform var(--transition-normal);
+        }
+
+        .x-cd-x4ky:hover {
+            background: var(--bg-card-hover);
+            border-color: var(--border-accent);
+            transform: translateY(-2px);
+        }
+
+        .x-cd-x4ky:hover::before {
+            transform: scaleX(1);
+        }
+
+        .x-cd-x4ky h3 {
+            margin-bottom: calc(var(--space-unit) * 1.5);
+        }
+
+        .x-cd-x4ky p {
+            color: var(--text-muted);
+            font-size: 0.95rem;
+        }
+
+        /* Signal Tag */
+        .x-sg-tg-x4ky {
+            display: inline-block;
+            background: rgba(0, 229, 255, 0.1);
+            color: var(--accent-primary);
+            padding: calc(var(--space-unit) * 0.5) calc(var(--space-unit) * 1.5);
+            border-radius: 100px;
+            font-size: 0.8rem;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+            margin-bottom: calc(var(--space-unit) * 1);
+            border: 1px solid rgba(0, 229, 255, 0.2);
+        }
+
+        /* Highlight Box */
+        .x-hl-x4ky {
+            background: var(--bg-secondary);
+            border-left: 4px solid var(--accent-secondary);
+            padding: calc(var(--space-unit) * 3);
+            margin: calc(var(--space-unit) * 4) 0;
+            border-radius: 0 var(--radius-md) var(--radius-md) 0;
+        }
+
+        .x-hl-x4ky h3 {
+            color: var(--accent-secondary);
+            margin-bottom: calc(var(--space-unit) * 1.5);
+        }
+
+        /* List */
+        .x-ls-x4ky {
+            list-style: none;
+            margin: calc(var(--space-unit) * 2) 0;
+        }
+
+        .x-ls-x4ky li {
+            position: relative;
+            padding-left: calc(var(--space-unit) * 2);
+            margin-bottom: calc(var(--space-unit) * 1.5);
+            color: var(--text-secondary);
+        }
+
+        .x-ls-x4ky li::before {
+            content: '→';
+            position: absolute;
+            left: 0;
+            color: var(--accent-primary);
+            font-weight: 700;
+        }
+
+        /* FAQ Section */
+        .x-fq-x4ky {
+            margin-top: calc(var(--space-unit) * 8);
+        }
+
+        .x-fq-item-x4ky {
+            border: 1px solid var(--border-color);
+            border-radius: var(--radius-md);
+            margin-bottom: calc(var(--space-unit) * 2);
+            overflow: hidden;
+        }
+
+        .x-fq-q-x4ky {
+            background: var(--bg-card);
+            padding: calc(var(--space-unit) * 2.5);
+            cursor: pointer;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            transition: background var(--transition-fast);
+        }
+
+        .x-fq-q-x4ky:hover {
+            background: var(--bg-card-hover);
+        }
+
+        .x-fq-q-x4ky h4 {
+            font-size: 1.1rem;
+            color: var(--text-primary);
+            margin: 0;
+            font-family: var(--font-body);
+            font-weight: 700;
+            text-transform: none;
+            letter-spacing: 0;
+        }
+
+        .x-fq-q-x4ky span {
+            color: var(--accent-primary);
+            font-size: 1.5rem;
+            transition: transform var(--transition-normal);
+        }
+
+        .x-fq-a-x4ky {
+            padding: 0 calc(var(--space-unit) * 2.5) calc(var(--space-unit) * 2.5);
+            background: var(--bg-card);
+            display: none;
+        }
+
+        /* Footer */
+        .x-ft-x4ky {
+            border-top: 1px solid var(--border-color);
+            padding: calc(var(--space-unit) * 4);
+            margin-top: calc(var(--space-unit) * 8);
+            text-align: center;
+            color: var(--text-muted);
+            font-size: 0.9rem;
+            position: relative;
+            z-index: 1;
+        }
+
+        .x-ft-x4ky a {
+            color: var(--text-secondary);
+            text-decoration: none;
+            transition: color var(--transition-fast);
+        }
+
+        .x-ft-x4ky a:hover {
+            color: var(--accent-primary);
+        }
+
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            .x-hbg-x4ky {
+                display: block;
+            }
+
+            .x-mnu-x4ky {
+                position: absolute;
+                top: 100%;
+                left: 0;
+                width: 100%;
+                background: rgba(10, 10, 15, 0.98);
+                flex-direction: column;
+                padding: calc(var(--space-unit) * 2);
+                gap: 0;
+                transform: translateY(-10px);
+                opacity: 0;
+                visibility: hidden;
+                transition: all var(--transition-normal);
+                border-bottom: 1px solid var(--border-color);
+            }
+
+            .x-mnu-x4ky.active {
+                transform: translateY(0);
+                opacity: 1;
+                visibility: visible;
+            }
+
+            .x-mnu-x4ky li {
+                border-bottom: 1px solid var(--border-color);
+            }
+
+            .x-mnu-x4ky a {
+                display: block;
+                padding: calc(var(--space-unit) * 1.5) 0;
+            }
+
+            .x-mn-x4ky {
+                padding: calc(var(--space-unit) * 4) calc(var(--space-unit) * 2);
+            }
+        }
+    </style>
+</head>
+<body>
+    <header class="x-hd-x4ky">
+        <nav class="x-nv-x4ky">
+            <a href="index.html" class="x-logo-x4ky">YEONGDEUNGPO <span>NIGHT</span> NOTE</a>
+            <button class="x-hbg-x4ky" aria-label="메뉴 열기">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <ul class="x-mnu-x4ky">
+                <li><a href="index.html">추천</a></li>
+                <li><a href="info.html" style="color: var(--accent-primary);">정보</a></li>
+                <li><a href="faq.html">질문</a></li>
+                <li><a href="about.html">소개</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="x-mn-x4ky">
+        <h1>정보</h1>
+        <p>영등포 유흥의 실제 지형을 당신에게 전달합니다. 감이 아닌 구조, 추측이 아닌 시그널. 이 페이지는 지역의 진짜 텍스트를 읽는 법을 알려드리는 문서입니다.</p>
+
+        <hr class="x-hr-x4ky">
+
+        <section class="x-sg-x4ky row-2">
+            <article class="x-cd-x4ky">
+                <span class="x-sg-tg-x4ky">지역 시그널 #1</span>
+                <h3>영등포역 일대</h3>
+                <p>가장 밀도 높은 유흥 밀집지역입니다. 지하철역을 중심으로 대형 유흥업소가 골고루 분포하며, 유동인구가 많아 선택지가 넓습니다. 단, 수요가 많아 예약과 대기 시간이 길 수 있습니다.</p>
+            </article>
+            <article class="x-cd-x4ky">
+                <span class="x-sg-tg-x4ky">지역 시그널 #2</span>
+                <h3>문래동 일대</h3>
+                <p>산업단지와 주거지가 혼재한 독특한 지역입니다. 규모는 작지만, 소규모 전문점이 밀집되어 있습니다. 젊은 층에게 인기가 많으며, 가성비를 중시하는 방문자에게 적합합니다.</p>
+            </article>
+        </section>
+
+        <div class="x-hl-x4ky">
+            <h3>이것은 추천이 아닙니다</h3>
+            <p>이 문서는 특정 업소를 추천하지 않습니다. 대신, 지역 전체를 이해할 수 있는 지형도를 제공합니다. 당신은 이 지도 위에서 스스로의 길을 찾아야 합니다. 우리의 역할은 당신에게 진짜 정보를 전달하는 것뿐입니다.</p>
+        </div>
+
+        <section class="x-sg-x4ky row-3">
+            <article class="x-cd-x4ky">
+                <h3>가격 시그널</h3>
+                <ul class="x-ls-x4ky">
+                    <li>기본 테이블 비용</li>
+                    <li>주류 가격 범위</li>
+                    <li>추가 서비스 비용</li>
+                    <li>카드 결제 가능 여부</li>
+                </ul>
+            </article>
+            <article class="x-cd-x4ky">
+                <h3>시간 시그널</h3>
+                <ul class="x-ls-x4ky">
+                    <li>영업 시작 시간</li>
+                    <li>마지막 주문 시간</li>
+                    <li>웨이팅이 긴 시간대</li>
+                    <li>상대적으로 여유로운 시간대</li>
+                </ul>
+            </article>
+            <article class="x-cd-x4ky">
+                <h3>접근 시그널</h3>
+                <ul class="x-ls-x4ky">
+                    <li>가장 가까운 지하철역</li>
+                    <li>주차 가능 여부</li>
+                    <li>도보 접근성</li>
+                    <li>야간 택시 승강장 위치</li>
+                </ul>
+            </article>
+        </section>
+
+        <section class="x-fq-x4ky">
+            <h2>지역 시그널에 대한 질문</h2>
+            <div class="x-fq-item-x4ky">
+                <div class="x-fq-q-x4ky">
+                    <h4>각 지역 시그널은 어떤 기준으로 나뉘었나요?</h4>
+                    <span>+</span>
+                </div>
+                <div class="x-fq-a-x4ky">
+                    <p>물리적 거리, 유흥업소의 밀도, 접근성, 그리고 주요 이용객의 특성을 종합적으로 분석하여 나눈 것입니다. 이것은 공식적인 구분이 아닌, 방문자가 이해하기 쉬운 지형도입니다.</p>
+                </div>
+            </div>
+            <div class="x-fq-item-x4ky">
+                <div class="x-fq-q-x4ky">
+                    <h4>정보의 정확성을 어떻게 보장하나요?</h4>
+                    <span>+</span>
+                </div>
+                <div class="x-fq-a-x4ky">
+                    <p>우리는 정기적으로 지역을 방문하고, 다양한 데이터를 분석합니다. 그러나 유흥 업계는 빠르게 변화합니다. 제공된 정보는 기준 시점의 사실이며, 방문 전 반드시 직접 확인하시기를 강력히 권고합니다.</p>
+                </div>
+            </div>
+            <div class="x-fq-item-x4ky">
+                <div class="x-fq-q-x4ky">
+                    <h4>이 정보 외에 어떤 것을 준비해야 하나요?</h4>
+                    <span>+</span>
+                </div>
+                <div class="x-fq-a-x4ky">
+                    <p>정보는 도구일 뿐입니다. 중요한 것은 당신의 선호와 한계, 그리고 예의입니다. 어떤 선택을 하든, 스스로의 결정에 책임을 지는 것이 가장 중요합니다.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="x-sg-x4ky" style="margin-top: calc(var(--space-unit) * 8);">
+            <h2>지역 구조의 현실</h2>
+            <p>영등포 유흥은 하나의 거대한 시스템이 아닙니다. 그것은 수많은 개별적인 선택지가 뒤섞인 미로입니다. 이 미로를 '추천'으로 해결하려는 것은 어리석은 일입니다. 당신에게 필요한 것은 빠른 답이 아니라, 미로를 스스로 항해할 수 있는 지도입니다. 이 페이지가 그 지도의 첫 페이지이기를 바랍니다.</p>
+            <p>각 지역 시그널은 당신에게 하나의 좌표를 제공합니다. 그 좌표 위에서 무엇을 발견할지는 당신의 몫입니다. 우리는 당신에게 진짜 정보를 전달할 뿐, 그 너머의 경험은 당신의 것입니다.</p>
+        </section>
+
+    </main>
+
+    <footer class="x-ft-x4ky">
+        <p>© 2024 YEONGDEUNGPO NIGHT NOTE. 모든 정보는 참고용이며, 방문 전 반드시 직접 확인하시기 바랍니다.</p>
+        <p style="margin-top: calc(var(--space-unit) * 1);">
+            <a href="#">이용약관</a> | <a href="#">개인정보처리방침</a>
+        </p>
+    </footer>
+
+    <script>
+        // Simple hamburger menu toggle
+        document.querySelector('.x-hbg-x4ky').addEventListener('click', function() {
+            document.querySelector('.x-mnu-x4ky').classList.toggle('active');
+            this.classList.toggle('active');
+        });
+
+        // Simple FAQ toggle
+        document.querySelectorAll('.x-fq-q-x4ky').forEach(question => {
+            question.addEventListener('click', function() {
+                const answer = this.nextElementSibling;
+                const symbol = this.querySelector('span');
+                
+                // Toggle answer
+                if (answer.style.display === 'block') {
+                    answer.style.display = 'none';
+                    symbol.textContent = '+';
+                } else {
+                    // Close all other answers first
+                    document.querySelectorAll('.x-fq-a-x4ky').forEach(ans => ans.style.display = 'none');
+                    document.querySelectorAll('.x-fq-q-x4ky span').forEach(sym => sym.textContent = '+');
+                    
+                    answer.style.display = 'block';
+                    symbol.textContent = '-';
+                }
+            });
+        });
+    </script>
+</body>
+</html>
